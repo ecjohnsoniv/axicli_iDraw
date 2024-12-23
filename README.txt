@@ -1,3 +1,9 @@
+This is the standard axicli but I have moded the settings for the iDraw 1.0 a3 according (largly) to this video
+
+https://www.youtube.com/watch?v=HfC-WsOBZSg&t=25s
+
+
+
 Stand-alone command line interface and python API
 for the AxiDraw writing and drawing machine.
 
@@ -40,11 +46,11 @@ test/assets/AxiDraw_trivial.svg   - Sample SVG file that can be plotted
 COMMAND LINE INTERFACE: USAGE
 
 For detailed documentation, please refer to:
-    
+
     https://axidraw.com/doc/cli_api/
 
 
-Quick start (CLI): 
+Quick start (CLI):
 
 (1) To plot an SVG document called "AxiDraw_trivial.svg" from the command line,
     use the AxiDraw CLI:
@@ -52,7 +58,7 @@ Quick start (CLI):
         axicli test/assets/AxiDraw_trivial.svg
 
 
-(2) The CLI features an extensive set of control options. For quick help, use: 
+(2) The CLI features an extensive set of control options. For quick help, use:
 
         axicli --help
 
@@ -62,31 +68,31 @@ Some alternative commands (functionally identical):
         python -m axicli <input>
 
 ----------
-    
+
 PYTHON API: USAGE
 
 For detailed documentation, please refer to:
-    
+
     https://axidraw.com/doc/py_api/
-    
+
 Quick Start:
 
 (1) The file "examples_python/plot.py" is an example python script, showing how
 one can use a the axidraw python module in "plot" mode to open and plot an SVG
-file. 
+file.
 
     To run the example, call:
 
         python examples_python/plot.py
 
     This is a minimal demonstration script for opening and plotting an SVG file
-    (in this case, "AxiDraw_trivial.svg") from within a python script. 
+    (in this case, "AxiDraw_trivial.svg") from within a python script.
 
 
 (2) The file "examples_python/interactive_xy.py" is an example python script, showing how one
 can use a the axidraw python module in "interactive" mode, to execute absolute
 and relative XY motion control commands like move(x,y), lineto(x,y), penup()
-and pendown(). 
+and pendown().
 
     To run the example, call:
 
@@ -96,14 +102,14 @@ and pendown().
 
 
 ----------
-    
+
 
 Licensing:
 
-The AxiDraw CLI and top level example scripts are licensed under the MIT license. 
+The AxiDraw CLI and top level example scripts are licensed under the MIT license.
 Some of the underlying libraries that are included with this distribution
 are licensed as GPL. Please see the individual files and directories included with
-this distribution for additional license information. 
+this distribution for additional license information.
 
 API Documentation: Copyright 2023, Windell H. Oskay, Evil Mad Scientist Laboratories.
 
